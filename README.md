@@ -12,9 +12,9 @@ preferences/styles.
 **Computational**: Lessons should involve some form of computation that
 students can follow and/or perform for themselves (implementing a model,
 plotting a dataset, etc). Knowledge is easily accessible through internet
-searches and text books. But open-source coding tools enable students to *put
-their knowledge into practice* through interactive exploration and looking at
-real world data.
+searches and text books. But open-source computational tools enable students 
+to *put their knowledge into practice* through interactive exploration and 
+looking at real world data.
 
 TODO:
 
