@@ -39,13 +39,45 @@ Our lessons that fall under these main categories:
    lessons would focus on teaching the tool rather than teaching the concepts
    behind it (which would ideally be done in a *core concepts* lesson).
    *Examples: loading seismic data with `segyio`, DC resistivity inversion with
-   `SimPEG`, Euler deconvolution with `harmonica`.
+   `SimPEG`, Euler deconvolution with `harmonica`.*
 
-TODO:
+## What do you mean by "lesson"?
 
-* Layout lesson design
-* How to contribute a lesson
-* Technologies
+Our lessons are organized in individual git repositories. Each repository
+contains:
+
+* `README.md`: Description of the lesson, including learning objectives,
+  prerequisites, data description, instructions for running the lesson, and
+  links to the lesson plan, contributing guide, related lessons, etc.
+* `LICENSE.md`: The license for the content.
+* `LESSON_PLAN.md`: A bullet point guide for instructors explaining how to use
+  the lesson, activities that can be performed (e.g., group activities,
+  exercises), and examples of formative assessment (multiple choice questions,
+  discussion points, etc).
+* `CONTRIBUTING.md`: Guide for contributing to the lesson. Ideally should just
+  point to this repository.
+* `AUTHORS.md`: A list of lesson authors and contributors. Anyone who has
+  contributed to the lesson should be included (name, affiliation, links,
+  ORCID, etc). This would be used to determine authorship in publications of
+  this lesson material.
+* `data/`: Folder with all required data for this lesson, if it's small enough
+  to be stored on GitHub. A `data/README.md` file should be included describing
+  the data sources (with appropriate citations), links, and license information.
+* Code in the form of scripts, Jupyter notebooks, etc.
+
+For an example of what this could look like, see the [gravity disturbance
+lesson](https://github.com/GeophysicsLibrary/gravity-disturbance).
+
+## Technology
+
+TODO: How lessons are setup on GitHub: repositories, environments, notebooks,
+proprietary vs open, etc.
+
+## Contributing
+
+TODO: How to contribute to an existing lesson.
+
+TODO: How to create a new lesson.
 
 ## License
 
