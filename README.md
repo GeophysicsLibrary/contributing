@@ -43,7 +43,11 @@ Our lessons that fall under these main categories:
 
 ## What do you mean by "lesson"?
 
-Our lessons are organized in individual git repositories. Each repository
+Our lessons include text describing theory/background, code that can be run by
+students to explore a geophysical model/dataset, topics for discussion, a brief
+lesson plan, etc. The content can vary depending on lesson type.
+
+Each lesson is developed and distributed in an individual git repository that
 contains:
 
 * `README.md`: Description of the lesson, including learning objectives,
@@ -64,6 +68,8 @@ contains:
   to be stored on GitHub. A `data/README.md` file should be included describing
   the data sources (with appropriate citations), links, and license information.
 * Code in the form of scripts, Jupyter notebooks, etc.
+* Extra material required for the lesson: question sheets, images, reading
+  material, etc.
 
 For an example of what this could look like, see the [gravity disturbance
 lesson](https://github.com/GeophysicsLibrary/gravity-disturbance).
